@@ -12,14 +12,22 @@ body{
     margin: 40px;
 }
 h1{
-    color:rgb(122, 4, 116);
+    color:rgb(99, 3, 99);
 }
-h3 {
+.box-1 h3 {
     background-color: aquamarine;
     color: darkblue;
-    padding: 5%;
+    padding: 1%;
     margin: 10%;
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.5mm;
+    word-spacing: 0.9mm;
 }
+
 p{
     font-family: Sevillana ,arial;
     color: hsl(59, 87%, 17%);
@@ -44,4 +52,146 @@ p{
     margin: 5px 10px 5px 10px;
     padding: 100px;
     /* margin: 10px; */
+}
+
+.categories{
+    border: 5px solid #e60d72;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+    color:darkblue;
+}
+
+.categories ul{
+    padding: 0px;
+    list-style: none;
+}
+
+.categories a {
+    text-decoration: none;
+    color: black;
+}
+
+.categories a:hover{
+    color:red;
+}
+
+.categories li{
+    padding: 6px 0px;
+    border-bottom: 1px dotted #333;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+    padding-top : 20px;
+
+}
+
+.my-form label{
+    display: block;
+
+}
+
+.my-form #name , .my-form #age, .my-form #message{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    padding: 10px 10px ;
+    margin:10px;
+    border: none;
+    outline: none;
+    color:white;
+    background-color: rgb(247, 64, 64);
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 0.4em;
+
+}
+
+.button:hover{
+    background-color:rgb(148, 3, 3) ;
+    cursor: pointer;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#main__block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid darkblue;
+    box-sizing: border-box;
+}
+
+#side__bar{
+    float: right;
+    width: 30%;
+    padding: 15px;
+    border: 1px solid darkred;
+    box-sizing: border-box;
+}
+
+.position-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url('./images/unsplash-large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+
+.position-box h1{
+    position: absolute;
+    top: 140px;
+    left: 300px;
+}
+
+.position-box h3{
+    position: absolute;
+    bottom: 40px;
+    right: 200px;
+}
+
+.fixed-button{
+    position: fixed;
+    top: 20px;
+    background-color: yellow;
+}
+
+.my-list li:first-child{
+    background: rebeccapurple;
+}
+
+.my-list li:last-child{
+    background: royalblue;
+}
+
+.my-list li:nth-child(5){
+    background: rebeccapurple;
+}
+
+.dynamic-list li:nth-child(even){
+    background: rgb(58, 243, 51);
+}
+
+.dynamic-list li:nth-child(odd){
+    background: rgb(16, 189, 10);
 }
