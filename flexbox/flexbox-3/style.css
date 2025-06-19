@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    box-sizing: content-box;
+}
+
+
+.box{
+    width: 33.33%;
+    color:white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.979);
+}
+
+.box1 {
+    background: rgb(225, 230, 225);
+}
+
+.box2 {
+    background: yellow;
+}
+.box3 {
+    background:red;
+}
+.box4 {
+    background: rebeccapurple;
+}
+.box5 {
+    background: rgb(103, 181, 218);
+}
+.box6 {
+    background: grey;
+}
+.box7 {
+    background: blue;
+}
+.box8 {
+    background: purple;
+}
+.box9 {
+    background:violet;
+}
+.box10 {
+    background: magenta;
+}
+.container{
+    display: flex;
+    border: 10px solid darkblue;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
