@@ -10,11 +10,15 @@
 }
 
 .box1 {
-    background: green;
+    background: rgb(225, 230, 225);
+    border: 3px solid black;
+    margin: 10px;
+    padding: 5px;
 }
 
 .box2 {
     background: yellow;
+    border: 3px solid red;
 }
 .box3 {
     background:red;
@@ -42,7 +46,7 @@
 }
 
 .container{
-    display: flex;
+    display:flex;
     border: 5px solid palevioletred;
 }
 
@@ -56,4 +60,8 @@
 
 .box5{
     order: 2;
+}
+
+.box10{
+    order: 3;
 }

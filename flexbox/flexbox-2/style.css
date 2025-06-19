@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box1 {
+    background: rgb(61, 236, 61);
+    font-size: 30px;
+}
+
+.box2 {
+    background: yellow;
+    font-size: 60px;
+}
+.box3 {
+    background:red;
+    font-size: 90px;
+}
+.box4 {
+    background: rebeccapurple;
+    font-size: 120px;
+}
+.box5 {
+    background: rgb(103, 181, 218);
+    font-size: 160px;
+}
+.box6 {
+    background: grey;
+    font-size: 180px;
+}
+.box7 {
+    background: blue;
+    font-size: 160px;
+}
+.box8 {
+    background: purple;
+    font-size: 120px;
+}
+.box9 {
+    background:violet;
+    font-size: 90px;
+}
+.box10 {
+    background: magenta;
+    font-size: 60px;
+}
+
+.container{
+    display:flex;
+    border: 5px solid rgb(116, 10, 45);
+    height: 100vh;
+    align-items: baseline;
+}
