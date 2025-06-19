@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+    padding: 10px;
+
+}
+.box1 {
+    background: rgb(225, 230, 225);
+    /* border: 3px solid black;
+    margin: 10px;
+    padding: 5px; */
+}
+
+.box2 {
+    background: yellow;
+}
+.box3 {
+    background:red;
+}
+.box4 {
+    background: rgb(166, 103, 230);
+}
+.box5 {
+    background: rgb(103, 181, 218);
+}
+.box6 {
+    background: grey;
+}
+
+.container{
+    display:flex;
+    border:5px solid black;
+}
+.box{
+    flex:1;
+}
+
+.box2{
+    flex:3;
+}
