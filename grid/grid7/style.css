@@ -57,36 +57,30 @@ h6 {
 .container{
     display: grid;
     gap: 20px;
-    grid-template-columns: 1fr 10fr ;
-    grid-template-rows: 150px 500px 150px ;
-    grid-template-areas:
-        "sidebar-1 content sidebar-2"
-        "sidebar-1 content sidebar-2"
-        "footer footer footer";
-    
+    height: 500px;
+    border: 10px solid black;
+    /* grid-template-columns: repeat(10,1fr); */
+    grid-template-columns: repeat(5,100px);
+    /* grid-template-rows: repeat(5,100px); */
+    grid-template-rows: repeat(2,1fr) 300px 1fr;
+    /* justify-items:center;
+    align-items: center; */
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-content: space-between;
 }
 
-.footer1{
-    grid-area: footer;
+.itm{
+    background: white;
 }
 
-.item1{
-    grid-area: sidebar-1;
+.itm8{
+    background: yellow;
+    justify-self: center;
+
 }
 
-.item2{
-    grid-area: content;
-}
-
-.item3{
-    grid-area: sidebar-2;
-}
-
-@media(max-width:700px){
-    .container{
-        grid-template-areas:
-        "content content content"
-        "sidebar-1 sidebar-1 sidebar-2"
-        "footer footer footer";
-    }
+.itm14{
+    background-color: blue;
+    align-self: center;
 }

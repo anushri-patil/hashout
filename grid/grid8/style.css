@@ -50,43 +50,21 @@ h6 {
     /* best colour */
 }
 
-.item p {
-    margin: 0 0 5px 0;
-}
-
-.container{
+.albums{
     display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 10fr ;
-    grid-template-rows: 150px 500px 150px ;
-    grid-template-areas:
-        "sidebar-1 content sidebar-2"
-        "sidebar-1 content sidebar-2"
-        "footer footer footer";
-    
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 5px;
 }
 
-.footer1{
-    grid-area: footer;
+.album{
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 10px;
 }
 
-.item1{
-    grid-area: sidebar-1;
-}
-
-.item2{
-    grid-area: content;
-}
-
-.item3{
-    grid-area: sidebar-2;
-}
-
-@media(max-width:700px){
-    .container{
-        grid-template-areas:
-        "content content content"
-        "sidebar-1 sidebar-1 sidebar-2"
-        "footer footer footer";
-    }
+.album__artwork{
+    width: 100%;
 }
