@@ -216,7 +216,7 @@
 
 .container-three .courses {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(286px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(17.875rem, 1fr));
     /* IMPORTANT */
     gap: 1.5rem;
 }
