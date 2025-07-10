@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-* {
-    color: rgba(255, 255, 255, 1);
+:root{
+    --color-primary:rgba(255, 255, 255, 1);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
 }
 
 .main {
@@ -11,7 +15,8 @@
 .container-first {
     background: linear-gradient(94.59deg, #4923B4 2.39%, #E878CF 97.66%);
     border-bottom-right-radius: 12.5rem;
-    border: 1px solid rgba(255, 255, 255, 1)
+    border: 1px solid var(--color-primary);
+    color:var(--color-primary);
 }
 
 .navbar {
@@ -38,12 +43,10 @@
 
 .menu-1 .item,
 .menu-2 .item {
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 100%;
     letter-spacing: 0%;
-    color: rgba(255, 255, 255, 1);
 }
 
 .menu-2 .item img {
@@ -62,7 +65,6 @@
 }
 
 .data-left {
-    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -81,7 +83,6 @@
 .content-2 {
     font-weight: 400;
     font-size: 1.375rem;
-    color: rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,7 +124,6 @@
 .button-1,
 .button-2 {
     height: 44px;
-    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     border-radius: 12px;
 }
@@ -131,7 +131,7 @@
 .button-1 {
     width: 10.75rem;
     background-color: rgba(255, 0, 199, 1);
-    color: rgba(255, 255, 255, 1);
+    color: var(--color-primary);
     font-weight: 600;
     border: none;
 }
@@ -140,18 +140,17 @@
 .button-2 {
     width: 8.75rem;
     background-color: rgba(134, 68, 190, 1);
-    color: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(255, 255, 255, 1);
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
     font-weight: 500;
 }
 
 .container-second {
     padding: 2.7rem;
-    background-color: rgba(255, 255, 255, 1)''
+    background-color: var(--color-primary);
 }
 
 .container-second .content {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 40px;
     color: rgba(70, 71, 71, 1);
@@ -182,12 +181,11 @@
 
 
 .container-three {
-    background-color: rgb(255, 255, 255, 1);
+    background-color: var(--color-primary);
     padding: 5rem;
 }
 
 .container-three .course-headline {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 2.75rem;
     color: rgba(0, 0, 0, 1);
@@ -201,7 +199,6 @@
 }
 
 .container-three .link {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 17px;
     color: rgba(120, 120, 120, 1);
@@ -254,7 +251,6 @@
     height: 2rem;
     background-color: rgba(234, 234, 234, 1);
     border-radius: 0.43rem;
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 12px;
     color: rgba(102, 103, 104, 1);
@@ -264,7 +260,6 @@
 }
 
 .container-three .courses .item .course-name {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 15px;
     color: rgba(0, 0, 0, 1);
@@ -279,7 +274,6 @@
 }
 
 .container-three .courses .item .author {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: rgba(0, 0, 0, 1);
@@ -287,7 +281,6 @@
 
 
 .container-three .courses .item .course-details .ratings .rating-value {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 12px;
     color: rgba(0, 0, 0, 1);
@@ -300,7 +293,6 @@
 }
 
 .container-three .courses .item .course-price {
-    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: rgba(80, 39, 181, 1);
@@ -310,7 +302,6 @@
     border: 1px solid rgba(80, 39, 181, 1);
     border-radius: 6px;
     color: rgba(80, 39, 181, 1);
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 12px;
     width: 5.5rem;
@@ -335,7 +326,6 @@
     align-items: center;
     justify-content: center;
     color: rgba(80, 39, 181, 1);
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 17px;
 }
@@ -346,7 +336,6 @@
 }
 
 .container-four .four .headline {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 44px;
     color: rgba(0, 0, 0, 1);
@@ -358,7 +347,6 @@
 }
 
 .container-four .four .content-1 {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: rgba(102, 103, 104, 1);
@@ -386,14 +374,12 @@
 }
 
 .container-four .feature-name {
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
     color: rgba(0, 0, 0, 1);
 }
 
 .container-four .content {
-    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 1rem;
     color: rgba(102, 103, 104, 1);
@@ -435,14 +421,12 @@
 }
 
 .container-five .headline {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 44px;
     color: rgba(0, 0, 0, 1);
 }
 
 .container-five .content {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: rgba(102, 103, 104, 1);
@@ -450,8 +434,7 @@
 
 .container-five #button-1 {
     background-color: rgba(172, 133, 255, 1);
-    color: rgba(255, 255, 255, 1);
-    font-family: "Poppins", sans-serif;
+    color: var(--color-primary);
     font-weight: 500;
     font-size: 1rem;
 }
@@ -492,14 +475,12 @@
 }
 
 .container-six .headline {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 44px;
     color: rgba(0, 0, 0, 1);
 }
 
 .container-six .content {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: rgba(81, 81, 81, 1);
@@ -519,10 +500,6 @@
     }
 }
 
-.container-seven {
-    font-family: "Poppins", sans-serif;
-
-}
 
 .container-seven .bg {
     background-image: url("images/bgimg-news.png");
@@ -645,7 +622,6 @@
 }
 
 .container-eight .details .headline {
-    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 35px;
     color: rgba(82, 40, 182, 1);
@@ -653,7 +629,6 @@
 }
 
 .container-eight .details .content {
-    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: rgba(102, 103, 104, 1);
@@ -661,7 +636,6 @@
 
 .container-eight .box {
     display: flex;
-    font-family: "Poppins";
     font-weight: 500;
     font-size: 13px;
     padding-left: 0.5rem;
@@ -692,8 +666,7 @@
 
 .container-nine {
     background-color: rgba(27, 27, 27, 1);
-    font-family: "Poppins", sans-serif;
-    color: rgba(255, 255, 255, 1);
+    color: var(--color-primary);
     display: flex;
     flex-wrap: wrap;
     padding: 5rem;
@@ -734,7 +707,6 @@
 
 
 .container-nine .right .header {
-    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 20px;
     padding-bottom: 0.5rem;
@@ -764,7 +736,6 @@
 .container-nine .getintouch .content {
     display: flex;
     flex-direction: column;
-    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 15px;
 }
@@ -784,7 +755,6 @@
 
 .page-bottom {
     background-color: rgba(27, 27, 27, 1);
-    font-family: "Poppins";
     display: flex;
     align-items: center;
     justify-content: center;
