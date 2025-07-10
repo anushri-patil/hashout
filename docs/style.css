@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-:root{
-    --color-primary:rgba(255, 255, 255, 1);
+:root {
+    --color-primary: rgba(255, 255, 255, 1);
 }
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
 
 .main {
     width: 100%;
@@ -16,7 +22,7 @@
     background: linear-gradient(94.59deg, #4923B4 2.39%, #E878CF 97.66%);
     border-bottom-right-radius: 12.5rem;
     border: 1px solid var(--color-primary);
-    color:var(--color-primary);
+    color: var(--color-primary);
 }
 
 .navbar {
@@ -29,8 +35,8 @@
 }
 
 .outschool {
-    width: 146px;
-    height: 17px;
+    width: 9.125rem;
+    height: 1.0625rem;
 }
 
 .menu-1,
@@ -44,14 +50,14 @@
 .menu-1 .item,
 .menu-2 .item {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 100%;
     letter-spacing: 0%;
 }
 
 .menu-2 .item img {
-    width: 23px;
-    height: 23px;
+    width: 1.91rem;
+    height: 1.91rem;
     align-items: center;
 }
 
@@ -123,7 +129,7 @@
 
 .button-1,
 .button-2 {
-    height: 44px;
+    height: 2.75rem;
     font-size: 1rem;
     border-radius: 12px;
 }
@@ -200,7 +206,7 @@
 
 .container-three .link {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1rem;
     color: rgba(120, 120, 120, 1);
     text-decoration: none;
 }
@@ -208,7 +214,7 @@
 .container-three .link:hover {
     text-decoration: underline;
     color: rgba(80, 39, 181, 1);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
@@ -252,7 +258,7 @@
     background-color: rgba(234, 234, 234, 1);
     border-radius: 0.43rem;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: rgba(102, 103, 104, 1);
     display: flex;
     align-items: center;
@@ -261,7 +267,7 @@
 
 .container-three .courses .item .course-name {
     font-weight: 600;
-    font-size: 15px;
+    font-size: 1rem;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -275,14 +281,14 @@
 
 .container-three .courses .item .author {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: rgba(0, 0, 0, 1);
 }
 
 
 .container-three .courses .item .course-details .ratings .rating-value {
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -294,16 +300,16 @@
 
 .container-three .courses .item .course-price {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: rgba(80, 39, 181, 1);
 }
 
 .container-three .courses .item .buy-now {
     border: 1px solid rgba(80, 39, 181, 1);
-    border-radius: 6px;
+    border-radius: 0.375rem;
     color: rgba(80, 39, 181, 1);
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.75rem;
     width: 5.5rem;
     height: 1.875rem;
     display: flex;
@@ -337,7 +343,7 @@
 
 .container-four .four .headline {
     font-weight: 600;
-    font-size: 44px;
+    font-size: 2.75rem;
     color: rgba(0, 0, 0, 1);
     display: flex;
     justify-content: center;
@@ -348,7 +354,7 @@
 
 .container-four .four .content-1 {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     color: rgba(102, 103, 104, 1);
     margin: 0 auto;
     display: flex;
@@ -422,13 +428,13 @@
 
 .container-five .headline {
     font-weight: 600;
-    font-size: 44px;
+    font-size: 2.75rem;
     color: rgba(0, 0, 0, 1);
 }
 
 .container-five .content {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: rgba(102, 103, 104, 1);
 }
 
@@ -476,13 +482,13 @@
 
 .container-six .headline {
     font-weight: 600;
-    font-size: 44px;
+    font-size: 2.75rem;
     color: rgba(0, 0, 0, 1);
 }
 
 .container-six .content {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: rgba(81, 81, 81, 1);
 }
 
@@ -508,7 +514,7 @@
 
 .container-seven .bg .header {
     font-weight: 600;
-    font-size: 44px;
+    font-size: 2.75rem;
     color: rgba(0, 0, 0, 1);
     display: flex;
     align-items: center;
@@ -567,7 +573,7 @@
 
 .container-seven .details .name {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: rgba(120, 120, 120, 1);
     display: flex;
     gap: 0.5rem;
@@ -593,13 +599,13 @@
 .container-seven .bottom .date {
     color: rgba(136, 136, 136, 1);
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .container-seven .details .bottom .readmore {
     color: rgba(82, 40, 182, 1);
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 
@@ -623,25 +629,25 @@
 
 .container-eight .details .headline {
     font-weight: 500;
-    font-size: 35px;
+    font-size: 2.1875rem;
     color: rgba(82, 40, 182, 1);
 
 }
 
 .container-eight .details .content {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     color: rgba(102, 103, 104, 1);
 }
 
 .container-eight .box {
     display: flex;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 0.8125rem;
     padding-left: 0.5rem;
     color: rgba(82, 40, 182, 1);
     box-shadow: 0px 0px 9px rgba(153, 153, 151, 0.25);
-    border-radius: 12px;
+    border-radius: 0.75rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -649,7 +655,7 @@
 .container-eight #button-1 {
     background-color: rgba(82, 40, 182, 1);
     font-family: "Poppins";
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
 }
 
@@ -684,7 +690,7 @@
 .container-nine .left img {
     width: 100%;
     height: auto;
-    max-width: 200px;
+    max-width: 12.5rem;
 }
 
 .container-nine .left .text {
@@ -708,7 +714,7 @@
 
 .container-nine .right .header {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding-bottom: 0.5rem;
 }
 
@@ -737,7 +743,7 @@
     display: flex;
     flex-direction: column;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 
 .container-nine .items ul {
@@ -759,8 +765,7 @@
     align-items: center;
     justify-content: center;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: rgba(189, 185, 185, 1);
     padding: 2rem;
-
 }
